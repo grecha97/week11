@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/download.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.container .title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  color: rgb(83, 83, 83);
+}
+.container .inputForm {
+  font-size: 2rem;
+  margin-top: 5.2rem;
+  padding: 0.4rem;
+  border-radius: 5rem;
+  border: 0.5px solid rgb(121, 121, 121);
+}
+.container .btn {
+  position: absolute;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-image: url(/assets/favorite.png);
+  background-position: center;
+  background-size: cover;
+  border: none;
+  background-color: rgb(165, 232, 252);
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 5rem 0 1rem 1.3rem;
+  font-size: 1.25rem;
+  border: 0.1px solid rgb(108, 214, 246);
+}
+.container ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: rgb(83, 83, 83);
+  cursor: pointer;
+}
+.container ul li {
+  padding-top: 2.5rem;
+}
+.container ul .completed {
+  -webkit-text-decoration: line-through rgb(255, 41, 116);
+          text-decoration: line-through rgb(255, 41, 116);
+}/*# sourceMappingURL=toDo.css.map */
